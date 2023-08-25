@@ -94,8 +94,7 @@ def run_query(dbInfo, action, workspace):
         "policy_types_path_au": "(old.path is distinct from new.path)",
         "resource_resource_category_path_au": "(old.path is distinct from new.path)",
         "resource_resource_type_path_au": "(old.path is distinct from new.path)",
-        "resource_types_500_rt_path_update_au": "(old.path is distinct from new.path)",
-        "resources_update_to_deactivate_grants_au": "(old.path is distinct from new.path or old.parent_id is distinct from new.parent_id)"
+        "resource_types_500_rt_path_update_au": "(old.path is distinct from new.path)"
     }
 
     if action == 'disableTriggers':
